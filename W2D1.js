@@ -56,10 +56,6 @@ function orderedIntersection(sortedA, sortedB) {
         }
     }
     return resultsArr;
-    // return a new array filled with only the intersecting values, no duplicates
-
-    // CHALLENGE: COMPLETE ALGO WITHOUT THE HELP OF NEW DATA STRUCTURES
-    // CHALLENGE: COMPLETE ALGO USING ONLY ONE LOOP AND NO BUILT-IN FUNCTIONS (PUSH ALLOWED)
 }
 
 console.log(orderedIntersection(numsA1, numsB1));
