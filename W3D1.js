@@ -42,7 +42,7 @@ const expected2 = [
 function entries(obj) {
     let result = [];
     for(let key in obj){
-        if(!(key in proto)){
+        if(!(key in obj.__proto__)){
             result.push([key, obj[key]]);
         }
     }
